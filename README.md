@@ -17,16 +17,16 @@ Các công cụ quét tự động truyền thống thường gặp hạn chế 
 
 ## 2. Tiến độ & Lộ trình nghiên cứu (Roadmap & Progress)
 
-### ✅ Giai đoạn 1: Nghiên cứu cơ sở lý thuyết & Khảo sát (Đã hoàn thành - 30%)
+### Giai đoạn 1: Nghiên cứu cơ sở lý thuyết & Khảo sát (Đã hoàn thành - 30%)
 - [x] Hệ thống hóa lý thuyết tổng quan về lỗ hổng IDOR (khái niệm, nguyên nhân, kịch bản tấn công, minh họa trực quan và hướng khắc phục).
 - [x] Khảo sát, đánh giá sơ bộ các công cụ tự động phát hiện lỗ hổng hiện nay (phương pháp truyền thống và phương pháp ứng dụng AI).
 - [x] Tìm hiểu cơ chế kiểm soát truy cập dựa trên vai trò (**RBAC**) và mối liên hệ giữa cấu hình RBAC sai lệch với lỗ hổng IDOR.
 
-### 🚧 Giai đoạn 2: Thiết kế giải pháp & Chuẩn hóa dữ liệu (Đang triển khai)
+### Giai đoạn 2: Thiết kế giải pháp & Chuẩn hóa dữ liệu (Đang triển khai)
 - [ ] Đề xuất kiến trúc tích hợp LLM vào quy trình phát hiện IDOR dựa trên mô hình đặc tả **OpenAPI** và công cụ **Links2CPN**.
 - [ ] Thu thập và chuẩn hóa tập dữ liệu về cấu hình RBAC (vai trò, quyền hạn, tài nguyên) đa dạng định dạng từ các ứng dụng mẫu.
 
-### 📅 Giai đoạn 3: Xây dựng công cụ & Thực nghiệm đánh giá (Kế hoạch tiếp theo)
+### Giai đoạn 3: Xây dựng công cụ & Thực nghiệm đánh giá (Kế hoạch tiếp theo)
 - [ ] Xây dựng module kiểm tra chéo (cross-check) giữa hành vi truy cập thực tế và chính sách RBAC dự kiến để xác thực kết quả từ LLM.
 - [ ] Chạy thử nghiệm thực tế, đo lường hiệu năng (Precision, Recall, tỷ lệ dương tính giả/âm tính giả) và tinh chỉnh mô hình.
 
